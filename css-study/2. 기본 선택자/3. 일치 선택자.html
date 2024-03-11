@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    /* tag이름이 li면서 class가 orange인 것만 해당 */
+    li.orange {
+      background: orange;
+    }
+    /* id가 apple이면서 class가 green인 것만 해당 */
+    #apple.green {
+      color: yellowgreen;
+    }
+    /* li#apple.green 처럼 2개 이상도 가능 */
+
+    h1.yellow.low#change.primary {
+      background: violet;
+    }
+  </style>
+
+</head>
+<body>
+
+  <h1 id="change" class="yellow low primary">안녕하세요</h1>
+  
+  <div>
+    <ul>
+      <li id="apple" class="green">사과</li>
+      <li >포도</li>
+      <li class="orange">오렌지</li>
+    </ul>
+
+    <div class="green">당근</div>
+    <p class="big">토마토</p>
+    <span class="orange">오렌지</span>
+
+  </div>
+
+</body>
+</html>
