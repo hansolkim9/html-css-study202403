@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+
+    #fruits li:nth-child(2) {
+      color: red;
+    }
+    #food li:last-child {
+      background: skyblue;
+      width: 50px;
+    }
+    #fruits li:first-child {
+      font-size: 24px;
+    }
+    /*
+    n에 0부터 순차적으로 대입했을 때 선택되는 태그
+    even: 짝수, odd: 홀수
+    */
+
+    #fruits li:nth-child(even) {
+      background: yellowgreen;
+    }
+    #fruits li:nth-child(odd) {
+      background: lightgray;
+    }
+    #fruits li:nth-child(n+3) {
+      font-style: italic;
+    }
+    
+    /* '.squid' 제외 나머지 전체에 적용하려면 */
+    #food li:not(.squid) {
+      list-style: none;
+    }
+
+    /*
+    .sporsts에서 3번째를 먼저 찾고
+    그게 div가 맞을 때 변경
+    */
+    .sports p:nth-child(3) {
+      background: blue;
+    }
+    /* div중 3번째를 찾으려면 */
+    .sports div:nth-of-type(3) {
+      background: red;
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <div class="sports">
+    <div>축구</div>
+    <div>농구</div>
+    <p>ㅋㅋㅋㅋ</p>
+    <div>배구</div>
+    <div>야구</div>
+  </div>
+  
+  <ul id="food">
+    <li>제육볶음</li>
+    <li class="squid">오징어무침</li>
+    <li>회덮밥</li>
+  </ul>
+
+  <ul id="fruits">
+    <li>사과</li>
+    <li>딸기</li>
+    <li>수박</li>
+    <li>복숭아</li>
+    <li>참외</li>
+    <li>포도</li>
+    <li>오렌지</li>
+  </ul>
+
+</body>
+</html>
