@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box
+}
+section {
+  
+  width: 700px;
+  border: 3px double #123456;
+  margin: 50px auto;
+   
+}
+section h1 {
+  background: #ccc;
+  font-size: 2em;
+  font-family: "궁서체";
+  text-align: center;
+  line-height: 1.7;
+  padding: 10px 0;
+  margin: 0;
+}
+section h2 {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  line-height: 1.2;
+  padding: 7px 0;
+  border-bottom: 2px solid #ccc;;
+}
+section h2 .highlight {
+  font-weight: 700;
+  color: yellow;
+}
+section .container {
+  background: #6a6a6a;
+  padding-bottom: 10px;
+}
+section .clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+section .container .box {
+  float: left;
+  width: 23%;
+  height: 260px;
+  margin-top: 20px;
+  margin-right: 1.6%;
+  border: 1px solid #ccc;
+}
+section .container .box:nth-child(1) {
+  background: #d31515;
+  margin-left: 1.6%;
+}
+section .container .box:nth-child(2) {
+  background: #e941f9;
+}
+section .container .box:nth-child(3) {
+  background: #fe692b;
+}
+section .container .box:nth-child(4) {
+  background: #f3ea33;
+}
+section .container .box .text {
+  font-size: 0.9em;
+  pw: 500px;
+  padding: 10px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+section .container .box .img {
+  /* background: green; */
+  width: 96%;
+  height: 45%;
+  margin: 2%;
+  border: 1px solid #fff;
+}
+section .container .box:nth-child(1) .img {
+  background: url('../../../img/tulip.jpg') no-repeat;
+  background-size: cover;
+}
+section .container .box:nth-child(2) .img {
+  background: url('../../../img/jebi.jpg') no-repeat;
+  background-size: cover;
+}
+section .container .box:nth-child(3) .img {
+  background: url('../../../img/hobak.jpg') no-repeat;
+  background-size: cover;
+}
+section .container .box:nth-child(4) .img {
+  background: url('../../../img/sunflower.jpg') no-repeat;
+  background-size: cover;
+}
+
