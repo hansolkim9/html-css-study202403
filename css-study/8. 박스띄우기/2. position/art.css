@@ -1,0 +1,121 @@
+@import url('../../common.css');
+
+body {
+  background: gray;
+}
+
+a {
+  color: #fff;
+}
+#wrapper {
+  background: white;
+  width: 1500px;
+  margin: 0 auto;
+  font-family: 'NGothic', sans-serif;
+}
+#wrapper header h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 5em;
+  background: orange;
+  text-align: center;
+  padding: 30px;
+}
+#wrapper header h1 span {
+  font-size: 1rem;
+  display: block;
+  margin-top: 20px;
+  letter-spacing: -0.03em;
+  /* white-space: pre-line; */
+}
+#wrapper header .stit {
+  background: lightgray;
+  text-align: center;
+  padding: 5px;
+  font-size: 0.5em;
+}
+
+#wrapper .container .side-menu {
+  float: left;
+  width: 20%;
+}
+#wrapper .container .side-menu h3 {
+  background: darkred;
+  color: #fff;
+  padding: 10px;
+}
+#wrapper .container .side-menu li {
+  padding: 10px;
+}
+#wrapper .container .side-menu a {
+  color: #000;
+  text-decoration: underline;
+}
+
+#wrapper .container .main-content {
+  background: lightgray;
+  float: left;
+  width: 60%;
+  padding: 10px;
+}
+#wrapper .container .main-content .title {
+  background: navy;
+  padding: 5px;
+  font-size: 1.2em;
+  margin-top: 15px;
+}
+#wrapper .container .main-content .artist {
+  margin: 10px 0px;
+  font-weight: 700;
+}
+#wrapper .container .main-content .detail {
+  font-size: 0.8em;
+  margin-bottom: 5px;
+}
+
+#wrapper .container .banner {
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+#wrapper .container .banner h3 {
+  line-height: 1.5;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+#wrapper .container .banner span {
+  display: block;
+}
+#wrapper .container .banner .all {
+  color: gray;
+  text-decoration: underline;
+}
+#wrapper .container .banner .love {
+  color: orange;
+  text-decoration: underline;
+}
+#wrapper .container .banner .link {
+  margin-top: 30px;
+}
+#wrapper .container .banner .link a {
+  color: black;
+  font-weight: 700;
+  text-decoration: underline;
+}
+#wrapper .container .banner .link span {
+  margin-bottom: 15px;
+  padding: 5px 0;
+  font-size: 0.8em;
+}
+
+
+#wrapper footer {
+  padding: 5px;
+  text-align: center;
+  font-size: 0.5em;
+  background: navy;
+  color: #fff;
+}
+#wrapper footer a {
+  text-decoration: underline;
+}

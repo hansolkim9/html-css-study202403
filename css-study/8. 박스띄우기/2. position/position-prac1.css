@@ -1,0 +1,33 @@
+@import url('../../common.css');
+
+section {
+  width: 650px;
+  border: 3px solid lightgray;
+  background: pink;
+  margin: 50px auto;
+  padding: 20px;
+  position: relative;
+}
+.title {
+  color: green;
+  font-weight: 700;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+.contents {
+  color: gray;
+  font-size: 2em;
+  line-height: 1.4;
+  text-indent: 30px;
+}
+.contents .text:nth-child(3) {
+  color: blue;
+  text-decoration: underline;
+}
+a {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: blue;
+  text-decoration: underline;
+}
